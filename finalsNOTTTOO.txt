@@ -1,0 +1,56 @@
+Webtechlaaaaaaab
+3 website
+	client		
+	admin
+	service provider
+
+Rental type of application 
+Hosted on a common database- acccessed by 3(client/SP/Admin)
+	
+CLIENT
+	Registration
+	avail services of sp
+	search/avail services
+	monitor what client posted	
+	reserve
+	
+RENTAL SP (SERVICES)\
+	Registration
+	car rental
+	house transient
+	sound system
+	costume/cloting/attire
+
+SP
+	Approve/deny registration of clients and Service providers
+	show reservations
+	approve/deny   
+	mmonitor transactions-(what/who)
+	add/remove services
+
+ADMIN
+	monitor past transactions for all clients/sp
+	user management - activate/deactivate accounts
+
+language
+	java
+	php
+	(choice)node js, ruby, python, asp
+
+OTHER FUNCTIONALITIES	
+	CLIENT feedback/ sp Rating
+	admin - report on sp transactions (monthly)
+
+
+03 AYON-AYON, CHRISTIAN JAYMAR LUCAS
+07 DEL ROSARIO, MIGUEL PAOLO BALADAD
+08 DOLOR, REY CHRISTIAN DEGORIO
+17 PATRICIO, JAN RONALD MADRID
+18 PIS-O, HENRHOD YADNO
+19 RIVERA, THEO MICHAEL KENNETH BENICO
+25 ANDRES, GEOVELLE JHOYCE DIRECTO
+27 CARIÑO, JONELLE ESGUERRA
+28 DE VERA, MELODY RIZA CABAIS
+33 OFICIAR, CARYL MARIE SALAZAR
+36 ROCAFORT, JAM SPICA VALDEZ
+31 LAXAMANA, JACQUELYN POLICARPIO
