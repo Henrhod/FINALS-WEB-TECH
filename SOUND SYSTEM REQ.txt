@@ -1,0 +1,25 @@
+SOUND SYSTEM
+
+Customer
+search
+Service availment
+Transaction monitoring
+
+Admin
+Registration(AJAX)
+Approve/deny registration
+Transaction monitoring
+User management
+
+Service providers
+Post services
+Show service requests
+approve/deny requests
+Transaction monitoring
+
+
+
+SOUND SYSTEM
+
+
+FRAMEWORKS- front end only!!!!!!
