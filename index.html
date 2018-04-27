@@ -1,30 +1,43 @@
+<!DOCTYPE html>
 <html>
 	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style/style.css" type="text/css">
 	</head>
-	
 	<body>
 	<header>
 		<nav class="navbar">
 			<a href="index.html"><img src="images/logoTrial.png" id="logo" alt="alt-logo"></a>
+			<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="login">Login</button>
 		</nav>
 	</header>
-	<form action="">
-  		<div class="container">
-	    	<hr>
 
-	    	<label for="user"><b>Username</b></label>
-	    	<input type="text" placeholder="Enter Username" name="user" required>
+	<div id="id01" class="window">
+  
+  	<form class="window-content animate" action="/action_page.php">
+	<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close window">&times;</span>
+    <div class="window_box">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
 
-	    	<label for="psw"><b>Password</b></label>
-	    	<input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit" id="login_window">Login</button>   
+    </div>
+	</div>
+</form>
 
-	        <hr>
-			
+	<script>
+	// Get the window
+	var window = document.getElementById('id01');
 
-		    <button type="submit" class="register" onclick="wind">Log In</button>
-		    <button type="submit" class="register">Sign Up</button>
-	  	</div>
-	</form>
+	// When the user clicks anywhere outside of the window, close it
+	window.onclick = function(event) {
+    if (event.target == window) {
+        window.style.display = "none";
+    }
+}
+</script>
 	</body>
 </html>
