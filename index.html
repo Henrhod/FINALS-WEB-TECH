@@ -7,30 +7,43 @@
 	<body>
 	<header>
 		<nav class="navbar">
+			
+			
 			<a href="index.html"><img src="images/logoTrial.png" id="logo" alt="alt-logo"></a>
-			<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="login">Login</button>
+			<button onclick="document.getElementById('login').style.display='block'" style="width:auto;" class="sign-up">Sign Up</button>
+			<button style="width:auto;" class="login">Login</button>
+			<div class="login-prompt">
+				<label for="uname"><b>Username</b></label>
+			    <input type="text" placeholder="Enter Username" name="uname" class="login-nav" required>
+			    <label for="psw"><b>Password</b></label>
+			    <input type="password" placeholder="Enter Password" name="psw" class="login-nav" required>
+			</div>
 		</nav>
 	</header>
 
-	<div id="id01" class="window">
+	<div id="register">
+		
+	</div>
+
+	<div id="login" class="window">
   
   	<form class="window-content animate" action="/action_page.php">
-	<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close window">&times;</span>
+	<span onclick="document.getElementById('login').style.display='none'" class="close" title="Close window">&times;</span>
     <div class="window_box">
       <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+      <input type="text" placeholder="Enter Username" name="uname" class="sign-up-reg" required>
 
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <input type="password" placeholder="Enter Password" name="psw" class="sign-up-reg" required>
         
-      <button type="submit" id="login_window">Login</button>   
+      <button type="submit" id="login_window">Sign Up</button>   
     </div>
 	</div>
 </form>
 
 	<script>
 	// Get the window
-	var window = document.getElementById('id01');
+	var window = document.getElementById('login');
 
 	// When the user clicks anywhere outside of the window, close it
 	window.onclick = function(event) {

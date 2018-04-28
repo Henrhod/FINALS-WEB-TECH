@@ -2,12 +2,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-input[type=text], input[type=password] {
+input[type=text].login-nav, input[type=password].login-nav {
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+    padding: 14px 20px; 
+    margin-top: 30px;
+}
+
+input[type=text].sign-up-reg, input[type=password].sign-up-reg {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
     background: #f1f1f1;
     box-sizing: border-box;
 }
@@ -20,6 +27,11 @@ input[type=text]:focus, input[type=password]:focus {
 hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
+}
+
+div.login-prompt{
+    float: right;
+    margin-right: 10px;
 }
 
 /* Set a style for the submit button */
@@ -41,10 +53,20 @@ button.login{
     padding: 14px 20px; 
     border: none;
     cursor: pointer;
-    width: 100%;
-    float: right;
     margin-top: 30px;
-    margin-right: 10%;
+    margin-right: 10px;
+    float: right;
+}
+
+button.sign-up{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px; 
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 5%;
+    float: right;
 }
 
 button#login_window{
@@ -159,3 +181,4 @@ div.window {
     from {transform: scale(0)} 
     to {transform: scale(1)}
 }
+
