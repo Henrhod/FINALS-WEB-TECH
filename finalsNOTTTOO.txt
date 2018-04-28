@@ -13,22 +13,17 @@ CLIENT
 	search/avail services
 	monitor what client posted	
 	reserve
-	
-RENTAL SP (SERVICES)\
-	Registration
-	car rental
-	house transient
-	sound system
-	costume/cloting/attire
+	 
+sp	sound system 
 
-SP
-	Approve/deny registration of clients and Service providers
+	Registration
 	show reservations
 	approve/deny   
 	mmonitor transactions-(what/who)
 	add/remove services
 
 ADMIN
+	Approve/deny registration of clients and Service providers
 	monitor past transactions for all clients/sp
 	user management - activate/deactivate accounts
 
@@ -49,7 +44,7 @@ OTHER FUNCTIONALITIES
 18 PIS-O, HENRHOD YADNO
 19 RIVERA, THEO MICHAEL KENNETH BENICO
 25 ANDRES, GEOVELLE JHOYCE DIRECTO
-27 CARIÑO, JONELLE ESGUERRA
+27 CARIÃ‘O, JONELLE ESGUERRA
 28 DE VERA, MELODY RIZA CABAIS
 33 OFICIAR, CARYL MARIE SALAZAR
 36 ROCAFORT, JAM SPICA VALDEZ
