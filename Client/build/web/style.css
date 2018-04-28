@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+        
+}
+
+.Search-Div {
+    height: 30%;
+    width: 100%;
+    background-color: wheat;
+    float: right;
+}
+
+.Search-Bar {
+    padding: 1%;
+    float: right;
+}
+
+.Navigation-Container {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+}
+ 
+.Login-Container {
+    width: 30%;
+    margin-left: 35%;
+    background-color: blue;
+}
+.Login-Prompt {
+    margin-top: 20%;
+    padding: 25%;
+}
+
+#Name {
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+#User-Name {
+    padding-top: 5%;
+    padding-right: 5%;
+}
