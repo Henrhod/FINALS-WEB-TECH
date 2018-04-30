@@ -89,8 +89,8 @@ button.login:hover{
 
 nav.navbar {
         overflow: hidden;
-        background-color: #2f3dab;
-        box-shadow: 5px 7px 10px #888888;
+        background-color: white;
+        box-shadow: 0px 7px 10px #888888;
 }
 
 nav.navbar a {
