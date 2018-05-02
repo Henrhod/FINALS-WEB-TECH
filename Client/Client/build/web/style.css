@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+        
+}
+
+.Search-Div {
+    height: 30%;
+    width: 100%;
+    background-color: wheat;
+    float: right;
+}
+
+.Search-Bar {
+    padding: 1%;
+    float: right;
+}
+
+.Navigation-Container {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+}
+ 
+
+
+
+/* FOR LOGIN SANA */
+.Login-Container {
+    width: 30%;
+    margin-left: 35%;
+    background-color: yellow;
+}
+.Login-Prompt {
+    margin-top: 20%;
+    padding: 15%;
+}
+
+#Name {
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+#User-Name {
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.Login {
+    padding: 5%;
+}
+
+
+.Navigation-Container {
+    margin-top: 0;
+    display: inline;
+}
+
+
+
