@@ -132,7 +132,7 @@ h1{
 </style>
     <body>
     <div class="login-box">
-    <img src="images/user.png" class="avatar">
+    <a href = "index.php"><img src="images/user.png" class="avatar"></a>
         <h1>Sign up Here</h1>
             <form method="POST" action="signup.php">
 			      <p>Name</p>
