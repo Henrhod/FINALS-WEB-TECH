@@ -34,7 +34,7 @@ p{
 
 #showcase .bg-image{
 	position: absolute;
-	background: #333 url(../img/logo.png);
+	background: #333 url(../images/logo.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -389,7 +389,7 @@ footer{
 /*slider*/
 .slider {
   position: absolute;
-	background: #333 url(../img/logo.png);
+	background: #333 url(../images/logo.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -410,27 +410,27 @@ footer{
 	
 }
 .slide1 {
-  background: url(../img/img1.jpg)no-repeat center;
+  background: url(../images/img1.jpg)no-repeat center;
       background-size: cover;
     animation:fade 20s infinite;
 -webkit-animation:fade 20s infinite;
 
 } 
 .slide2 {
-  background: url(../img/cover1.jpg)no-repeat center;
+  background: url(../images/cover1.jpg)no-repeat center;
       background-size: cover;
     animation:fade2 20s infinite;
 -webkit-animation:fade2 20s infinite;
 }
 .slide3 {
-    background: url(../img/cover2.jpg)no-repeat center;
+    background: url(../images/cover2.jpg)no-repeat center;
       background-size: cover;
     animation:fade3 20s infinite;
 -webkit-animation:fade3 20s infinite;
 }
 
 .slide4 {
-    background: url(../img/cover3.jpg)no-repeat center;
+    background: url(../images/cover3.jpg)no-repeat center;
       background-size: cover;
     animation:fade4 20s infinite;
 -webkit-animation:fade4 20s infinite;
