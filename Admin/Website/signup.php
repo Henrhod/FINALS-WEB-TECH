@@ -13,13 +13,13 @@ include('server.php');
 body{
     margin: 0;
     padding: 0;
-    background: url(images/bg2.jpg);
+    background-image: url(img/en.png);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
 }
 .login-box{
-    width: 50%;
+    width: 40%;
     height: 500px;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -29,6 +29,7 @@ body{
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 70px 30px;
+	border-radius: 10px;
 }
 .avatar{
     width: 100px;
@@ -93,13 +94,13 @@ h1{
 
 .cancelbtn {
   padding: 14px 20px;
-  background-color: #f44336;
+  background-color: rgb(224, 153, 94);
 
 }
 
 .signupbtn {
   padding: 14px 20px;
-  background-color: #4F91FF;
+  background-color: #7d9b41;
 }
 
 
@@ -117,12 +118,14 @@ h1{
 .cancelbtn, .signupbtn{
    opacity: 1;
    transition: opacity .25s ease-in-out;
+   color: white;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
    }
 
    .cancelbtn:hover {
       opacity: 0.5;
+	  
       }
 	.signupbtn:hover {
       opacity: 0.5;
@@ -132,7 +135,7 @@ h1{
 </style>
     <body>
     <div class="login-box">
-    <a href = "index.php"><img src="images/user.png" class="avatar"></a>
+    <a href="index.php"><img src="img/avatar.png" class="avatar"></a>
         <h1>Sign up Here</h1>
             <form method="POST" action="signup.php">
 			      <p>Name</p>
