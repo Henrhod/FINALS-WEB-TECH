@@ -117,9 +117,9 @@ $(document).ready(function(){
           <p>Professional audio, video and lighting equipment for rental in our Allentown warehouse.  Please feel free to review the detailed equipment listings and our FAQ below. Contact us for a specific quote or more information.</p>
         </div>
         <div class="box">
-          <img src="img/logo_brush.png">
-          <h3>Graphic Design</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+          <img src="img/user.png">
+          <h3>eN</h3>
+          <p>Pag-aari ko 'to!</p>
         </div>
       </div>
     </section>
