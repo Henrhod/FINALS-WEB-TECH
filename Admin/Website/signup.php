@@ -125,7 +125,6 @@ h1{
 
    .cancelbtn:hover {
       opacity: 0.5;
-	  
       }
 	.signupbtn:hover {
       opacity: 0.5;
