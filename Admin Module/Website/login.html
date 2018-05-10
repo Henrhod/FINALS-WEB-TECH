@@ -20,7 +20,7 @@ body{
 }
 .login-box{
     width: 40%;
-    height: 500px;
+    height: 450px;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     top: 50%;
@@ -96,26 +96,27 @@ h1{
   padding: 14px 20px;
   background-color: rgb(224, 153, 94);
 
+
 }
 
-.signupbtn {
+.loginbtn {
   padding: 14px 20px;
   background-color: #7d9b41;
 }
 
 
-<!-- .cancelbtn, .signupbtn { 
+<!-- .cancelbtn, .loginbtn { 
   float: left;
   width: 50%;
 }-->
 
 <!-- @media screen and (max-width: 300px) { 
-  .cancelbtn, .signupbtn {
+  .cancelbtn, .loginbtn {
     width: 100%;
   }
 }-->
 
-.cancelbtn, .signupbtn{
+.cancelbtn, .loginbtn{
    opacity: 1;
    transition: opacity .25s ease-in-out;
    color: white;
@@ -126,7 +127,7 @@ h1{
    .cancelbtn:hover {
       opacity: 0.5;
       }
-	.signupbtn:hover {
+	.loginbtn:hover {
       opacity: 0.5;
       }
 	  
@@ -140,34 +141,55 @@ h1{
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-    color: #6a6a6b;
+    color:#6a6a6b;
 }
 
+<!---BUTTON STYLE-->
+
+input[type="checkbox"], 
+input[type="radio"],
+input.radio,
+input.checkbox {
+    vertical-align:text-top;
+    width:13px;
+    height:13px;
+    padding:5px;
+    margin:0;
+    position:relative;
+    overflow:hidden;
+    top:2px;
+}
 
 </style>
     <body>
     <div class="login-box">
     <a href="index.php"><img src="img/avatar.png" class="avatar"></a>
-        <h1>Sign up Here</h1>
-            <form method="POST" action="signup.php">
-			      <p>Name</p>
-            <input type="text" name="name" placeholder="Enter Name" required>
+        <h1>Log in</h1>
+            <form method="POST" action="login.php">
             <p>Username</p>
             <input type="text" name="username" placeholder="Enter Username" required>
             <label for="psw"><b>Password</b></label>
 			<input type="password" placeholder="Enter Password" name="psw" required>
-			<label for="psw-repeat"><b>Repeat Password</b></label>
-			<input type="password" placeholder="Repeat Password" name="psw-repeat" required>  
 			
+			
+			<div>
+			<p>Log in as:</p>
+				  <label for="one">ADMIN</label>
+				  <input type="radio" id="one" name="first_item" value="admin" />
+				  <label for="one">CLIENT</label>
+				  <input type="radio" id="one" name="first_item" value="client" />
+			</div>
+			<br>
+			</form>
 
  <div class="clearfix">
-		<button type="submit" class="signupbtn" name="register">Sign Up</button>
+		<button type="submit" class="loginbtn" name="register">Log in</button>
 		<button type="button" class="cancelbtn">Cancel</button>
       
 	<!-- <input type="submit" name="submit" value="Login"> -->
 
     </div>
-            </form>
+            
         
         
         </div>

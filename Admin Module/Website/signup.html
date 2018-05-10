@@ -4,7 +4,7 @@ include('server.php');
 
 <html>
 <head>
-    <title> Transparent Login Form Design </title>
+    <title> Transparent signup Form Design </title>
     <link rel="stylesheet" type="text/css" href="style.css">   
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -18,9 +18,9 @@ body{
     background-position: center;
     font-family: sans-serif;
 }
-.login-box{
+.signup-box{
     width: 40%;
-    height: 500px;
+    height: 550px;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     top: 50%;
@@ -45,16 +45,16 @@ h1{
     text-align: center;
     font-size: 22px;
 }
-.login-box p{
+.signup-box p{
     margin: 0;
     padding: 0;
     font-weight: bold;
 }
-.login-box input{
+.signup-box input{
     width: 100%;
     margin-bottom: 20px;
 }
-.login-box input[type="text"], input[type="password"]
+.signup-box input[type="text"], input[type="password"]
 {
     border: none;
     border-bottom: 1px solid #fff;
@@ -64,7 +64,7 @@ h1{
     color: #fff;
     font-size: 16px;
 }
-.login-box input[type="submit"]
+.signup-box input[type="submit"]
 {
     border: none;
     outline: none;
@@ -74,19 +74,21 @@ h1{
     font-size: 18px;
     border-radius: 20px;
 }
-.login-box input[type="submit"]:hover
+.signup-box input[type="submit"]:hover
 {
     cursor: pointer;
     background: #39dc79;
     color: #000;
 }
 
-.login-box a{
+
+
+.signup-box a{
     text-decoration: none;
     font-size: 14px;
     color: #fff;
 }
-.login-box a:hover
+.signup-box a:hover
 {
     color: #39dc79;
 }
@@ -96,6 +98,7 @@ h1{
   padding: 14px 20px;
   background-color: rgb(224, 153, 94);
 
+
 }
 
 .signupbtn {
@@ -103,6 +106,11 @@ h1{
   background-color: #7d9b41;
 }
 
+
+.button{
+padding: 14px 20px;
+  background-color: #7d9b41;
+}
 
 <!-- .cancelbtn, .signupbtn { 
   float: left;
@@ -140,13 +148,28 @@ h1{
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-    color: #6a6a6b;
+    color:#6a6a6b;
 }
 
+<!---BUTTON STYLE-->
+
+input[type="checkbox"], 
+input[type="radio"],
+input.radio,
+input.checkbox {
+    vertical-align:text-top;
+    width:13px;
+    height:13px;
+    padding:5px;
+    margin:0;
+    position:relative;
+    overflow:hidden;
+    top:2px;
+}
 
 </style>
     <body>
-    <div class="login-box">
+    <div class="signup-box">
     <a href="index.php"><img src="img/avatar.png" class="avatar"></a>
         <h1>Sign up Here</h1>
             <form method="POST" action="signup.php">
@@ -157,16 +180,32 @@ h1{
             <label for="psw"><b>Password</b></label>
 			<input type="password" placeholder="Enter Password" name="psw" required>
 			<label for="psw-repeat"><b>Repeat Password</b></label>
-			<input type="password" placeholder="Repeat Password" name="psw-repeat" required>  
+			<input type="password" placeholder="Repeat Password" name="psw-repeat" required> 
+			<div style="white-space:nowrap;">
 			
+			<div>
+			<p>Sign up as:</p>
+				  <label for="one">ADMIN</label>
+				  <input type="radio" id="one" name="first_item" value="1" />
+				  <label for="one">CLIENT</label>
+				  <input type="radio" id="one" name="first_item" value="1" />
+			</div>
+			<br>
+	
+			
+			<!---->
 
- <div class="clearfix">
+
+	<div class="clearfix">
 		<button type="submit" class="signupbtn" name="register">Sign Up</button>
 		<button type="button" class="cancelbtn">Cancel</button>
       
-	<!-- <input type="submit" name="submit" value="Login"> -->
+	<!-- <input type="submit" name="submit" value="signup"> -->
 
-    </div>
+    
+	</div>
+			
+			
             </form>
         
         
