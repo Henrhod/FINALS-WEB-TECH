@@ -8,7 +8,51 @@
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
+<style>
+     * {
+    box-sizing: border-box;
+}
 
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    } 
+
+</style>
 <body>
 <script>
 $(document).ready(function(){
@@ -88,16 +132,28 @@ $(document).ready(function(){
 	<main id="main">
 		<section id="section-a" class="grid">
 			<div class="content-wrap">
-				<h2 class="content-title">Sound System rentals</h2>
-                <div class="pack"><img src="img/wedding.jpeg" id="wed" style="width:800px;height:500px;">
+				<h2 class="content-title">Sound System Rental Packages</h2>
+                
+                <div class="row"> 
+                  <div class="column">
+                    <a href="wedpack.html" target="_self"><img src="img/wed.png" style="width:100%" ></a>
+                    <a href="partypack.html" target="_self"><img src="img/party.png" style="width:100%"></a>
                     
-                <img src="img/grad.jpg" id="grad" style="width:800px;height:500px;">
-                    </div>
+                  </div>
+                  <div class="column">
+                     <a href="venpack.html" target="_self"><img src="img/venue.png" style="width:100%"></a>
+                    <a href="gradpack.html" target="_self"><img src="img/grad.png" style="width:100%"></a>
+                    
+                  </div>  
+                </div>
+
+                
 				<p>content</p>
 			</div>
 		</section>
 	</main>
-	
+    
+    
 	<!--Section-->
 	<section id="section-b" class="grid">
 		<ul>
